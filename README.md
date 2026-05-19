@@ -9,6 +9,7 @@ Este es el repositorio principal del sistema. Los repositorios que componen part
 
 
 1   - [gp-registroPersonas](https://github.com/manu-valenzuela/gestionPersonal/gp-registroPersonas)
+
 2   - [gp-registroDirecciones](https://github.com/manu-valenzuela/gestionPersonal/gp-registroDirecciones)
 3   - [gp-registroFaenas](https://github.com/manu-valenzuela/gestionPersonal/gp-registroFaenas)
 4   - [gp-registroTiposDeContrato](https://github.com/manu-valenzuela/gestionPersonal/gp-registroTiposDeContrato)
