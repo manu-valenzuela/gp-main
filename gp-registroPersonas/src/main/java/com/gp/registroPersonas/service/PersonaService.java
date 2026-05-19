@@ -1,4 +1,10 @@
 package com.gp.registroPersonas.service;
 
-public class PersonaService {
+import com.gp.registroPersonas.dto.PersonaResponseDto;
+
+import java.util.List;
+
+public interface PersonaService {
+    List<PersonaResponseDto> findAll();
+    PersonaResponseDto findById(String rut);
 }

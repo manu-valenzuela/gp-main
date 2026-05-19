@@ -10,8 +10,8 @@ import java.util.Date;
 @Getter @Setter @NoArgsConstructor @AllArgsConstructor
 public class Persona {
     @Id
-    private long rut;
-    private int dv;
+    private String rut;
+    private String dv;
     private String nombre;
     private String apellido;
     @Column(name = "fecha_nacimiento")
