@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/gp-reportes/pom.xml" />
+        <option value="$PROJECT_DIR$/gp-usuarios/pom.xml" />
+        <option value="$PROJECT_DIR$/gp-registroFaenas/pom.xml" />
+        <option value="$PROJECT_DIR$/gp-despidosPersonal/pom.xml" />
+        <option value="$PROJECT_DIR$/gp-registroPersonas/pom.xml" />
+        <option value="$PROJECT_DIR$/gp-contratosPersonal/pom.xml" />
+        <option value="$PROJECT_DIR$/gp-registroDirecciones/pom.xml" />
+        <option value="$PROJECT_DIR$/gp-registroIndicadores/pom.xml" />
+        <option value="$PROJECT_DIR$/gp-remuneracionesPersonal/pom.xml" />
+        <option value="$PROJECT_DIR$/gp-registroTiposDeContrato/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="openjdk-26" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

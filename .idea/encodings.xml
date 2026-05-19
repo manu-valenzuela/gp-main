@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/gp-contratosPersonal/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gp-despidosPersonal/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gp-registroDirecciones/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gp-registroFaenas/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gp-registroIndicadores/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gp-registroPersonas/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gp-registroTiposDeContrato/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gp-remuneracionesPersonal/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gp-reportes/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gp-usuarios/src/main/java" charset="UTF-8" />
+  </component>
+</project>
