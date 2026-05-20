@@ -15,9 +15,7 @@ CREATE TABLE direcciones (
                              calle VARCHAR(100) NOT NULL,
                              numero INT NOT NULL,
                              id_comuna INT NOT NULL,
-                             id_region INT NOT NULL,
                              FOREIGN KEY (id_comuna) REFERENCES comunas(id_comuna),
-                             FOREIGN KEY (id_region) REFERENCES regiones(id_region)
 );
 
 --DATOS
@@ -49,14 +47,14 @@ INSERT INTO comunas (nombre_comuna, id_region) VALUES
     ('Chillán', 16);
 
 -- Direcciones (ejemplo con referencias a comunas y regiones)
-INSERT INTO direcciones (calle, numero, id_comuna, id_region) VALUES
-    ('Av. Concha y Toro', 1234, 1, 13),
-    ('Av. Nueva Providencia', 456, 2, 13),
-    ('Av. Libertad', 789, 3, 8),
-    ('Calle O’Higgins', 101, 4, 9),
-    ('Av. Alemania', 202, 5, 5),
-    ('Calle Los Robles', 303, 6, 10),
-    ('Av. Copayapu', 404, 7, 3),
-    ('Av. Francisco de Aguirre', 505, 8, 4),
-    ('Calle 1 Sur', 606, 9, 7),
-    ('Av. Libertad', 707, 10, 2);
+INSERT INTO direcciones (calle, numero, id_comuna) VALUES
+    ('Av. Concha y Toro', 1234, 1),
+    ('Av. Nueva Providencia', 456, 2),
+    ('Av. Libertad', 789, 3),
+    ('Calle O’Higgins', 101, 4),
+    ('Av. Alemania', 202, 5),
+    ('Calle Los Robles', 303, 6),
+    ('Av. Copayapu', 404, 7),
+    ('Av. Francisco de Aguirre', 505, 8),
+    ('Calle 1 Sur', 606, 9),
+    ('Av. Libertad', 707, 10);

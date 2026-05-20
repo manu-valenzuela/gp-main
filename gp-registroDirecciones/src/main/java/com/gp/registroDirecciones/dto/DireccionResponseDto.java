@@ -1,21 +1,16 @@
 package com.gp.registroDirecciones.dto;
 
-import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
-import lombok.Getter;
+import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
 
-@Getter @Setter @NoArgsConstructor @AllArgsConstructor
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class DireccionResponseDto {
-
-    @NotNull
-    private Long id;
-    @NotBlank
+    private Long idDireccion;
     private String calle;
-    @NotNull
     private Long numero;
-    private ComunaResponseDto comuna;
-    private RegionResponseDto region;
+    private String nombreComuna;
+    private String nombreRegion;
 }

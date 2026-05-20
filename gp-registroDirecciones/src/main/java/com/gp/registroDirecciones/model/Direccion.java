@@ -20,8 +20,4 @@ public class Direccion {
     @JoinColumn(name = "id_comuna")
     private Comuna comuna;
 
-    @ManyToOne
-    @JoinColumn(name = "id_region")
-    private Region region;
-
 }
