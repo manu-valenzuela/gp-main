@@ -6,19 +6,18 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.time.LocalDate;
 import java.util.Date;
 
 @Getter @Setter @NoArgsConstructor @AllArgsConstructor
 public class PersonaResponseDto {
-    @NotBlank
+
     private String rut;
-    @NotBlank
     private String dv;
-    @NotBlank
     private String nombre;
-    @NotBlank
     private String apellido;
-    @NotBlank
-    private Date fechaNacimiento;
-    private EstadoCivilResponseDto estadoCivil;
+    private LocalDate fechaNacimiento;
+
+    private String estadoCivil;
 }
+
