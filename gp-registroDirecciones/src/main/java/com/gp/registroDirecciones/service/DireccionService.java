@@ -1,4 +1,10 @@
 package com.gp.registroDirecciones.service;
 
-public class DireccionService {
+import com.gp.registroDirecciones.dto.DireccionResponseDto;
+
+import java.util.List;
+
+public interface DireccionService {
+    List<DireccionResponseDto> findAll();
+    DireccionResponseDto findById(Long id);
 }

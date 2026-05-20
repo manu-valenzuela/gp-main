@@ -1,4 +1,7 @@
 package com.gp.registroDirecciones.repository;
 
-public class ComunaRepository {
+import com.gp.registroDirecciones.model.Comuna;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ComunaRepository extends JpaRepository<Comuna, Integer> {
 }
