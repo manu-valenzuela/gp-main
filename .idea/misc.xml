@@ -14,6 +14,7 @@
         <option value="$PROJECT_DIR$/gp-registroIndicadores/pom.xml" />
         <option value="$PROJECT_DIR$/gp-remuneracionesPersonal/pom.xml" />
         <option value="$PROJECT_DIR$/gp-registroTiposDeContrato/pom.xml" />
+        <option value="$PROJECT_DIR$/gp-registroAfp/pom.xml" />
       </list>
     </option>
   </component>
