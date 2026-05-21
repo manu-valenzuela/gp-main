@@ -2,23 +2,41 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
-      <profile name="Annotation profile for registroTiposDeContrato" enabled="true">
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+      </profile>
+      <profile name="Annotation profile for registroIsapre" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.46/lombok-1.18.46.jar" />
         </processorPath>
+        <module name="gp-registroAfp" />
+        <module name="registroIsapre" />
+      </profile>
+      <profile name="Annotation profile for usuarios" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.46/lombok-1.18.46.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.46/lombok-1.18.46.jar" />
+        </processorPath>
         <module name="registroIndicadores" />
         <module name="despidosPersonal" />
         <module name="registroTiposDeContrato" />
         <module name="remuneracionesPersonal" />
-        <module name="registroDirecciones" />
         <module name="registroFaenas" />
+        <module name="registroDirecciones" />
         <module name="registroPersonas" />
         <module name="reportes" />
-        <module name="contratosPersonal" />
+        <module name="registroSeguroCesantia" />
         <module name="usuarios" />
+        <module name="contratosPersonal" />
       </profile>
     </annotationProcessing>
   </component>
@@ -26,10 +44,13 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="contratosPersonal" options="-parameters" />
       <module name="despidosPersonal" options="-parameters" />
+      <module name="gp-registroAfp" options="-parameters" />
       <module name="registroDirecciones" options="-parameters" />
       <module name="registroFaenas" options="-parameters" />
       <module name="registroIndicadores" options="-parameters" />
+      <module name="registroIsapre" options="-parameters" />
       <module name="registroPersonas" options="-parameters" />
+      <module name="registroSeguroCesantia" options="-parameters" />
       <module name="registroTiposDeContrato" options="-parameters" />
       <module name="remuneracionesPersonal" options="-parameters" />
       <module name="reportes" options="-parameters" />
