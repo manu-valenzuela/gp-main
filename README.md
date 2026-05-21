@@ -1,5 +1,4 @@
-# gp-main
-**gestionPersonal (gp)**
+# gestionPersonal (gp)
 
 **GP** es el backend de un programa desarrollado con microservicios que gestiona el personal de una empresa contratista con múltiples faenas o una empresa comercial con varias sucursales. Como este proyecto es académico, algunas características propias de la contratación en Chile han sido simplificadas.
 
@@ -8,27 +7,39 @@
 Este es el repositorio principal del sistema. Los repositorios que componen parte del sistema son microservicios que operan de forma independiente; ellos son:
 
 
-1   - [gp-registroPersonas](https://github.com/manu-valenzuela/gestionPersonal/gp-registroPersonas)
+gp-registroPersonas  
+Administra los datos personales de los trabajadores (RUT, nombre, apellido, fecha de nacimiento, estado civil).
 
-2   - [gp-registroDirecciones](https://github.com/manu-valenzuela/gestionPersonal/gp-registroDirecciones)
+gp-registroDirecciones  
+Gestiona las direcciones de los trabajadores, incluyendo comuna y región.
 
-3   - [gp-registroFaenas](https://github.com/manu-valenzuela/gestionPersonal/gp-registroFaenas)
+gp-registroFaenas  
+Define las faenas o proyectos en los que participan los trabajadores, con fechas de inicio y término.
 
-4   - [gp-registroTiposDeContrato](https://github.com/manu-valenzuela/gestionPersonal/gp-registroTiposDeContrato)
+gp-registroTiposDeContrato  
+Contiene los tipos de contrato disponibles (indefinido, plazo fijo).
 
-5   - [gp-registroIndicadores](https://github.com/manu-valenzuela/gestionPersonal/gp-registroIndicadores)
+gp-registroAfp, gp-registroIsapres, gp-registroSeguroCesantia  
+Manejan indicadores previsionales (AFP, Isapres, Seguro de Cesantía).
 
-6   - [gp-contratosPersonal](https://github.com/manu-valenzuela/gestionPersonal/gp-contratosPersonal)
-
-7   - [gp-remuneracionesPersonal](https://github.com/manu-valenzuela/gestionPersonal/gp-remuneracionesPersonal)
-
-8   - [gp-despidosPersonal](https://github.com/manu-valenzuela/gestionPersonal/gp-despidosPersonal)
-
-9   - [gp-reportes](https://github.com/manu-valenzuela/gestionPersonal/gp-reportes)
-
-10  - [gp-usuarios](https://github.com/manu-valenzuela/gestionPersonal/gp-usuarios)
+gp-contratosPersonal  
+Microservicio agregador: crea contratos de trabajo integrando datos de los otros microservicios.
+Tiene un dato propio: salario.
 
 
 **EJECUCIÓN**
+
+Instrucciones preliminares:
+
+Clonar repositorio:
+  git clone https://github.com/manu-valenzuela/gestionPersonal.git
+Entrar al microservicio, por ejemplo:
+  cd gp-contratosPersonal
+Compilar y ejecutar con Maven:
+  mvn clean install
+  mvn spring-boot:run
+Acceder en el puerto configurado, por ejemplo:
+  http://localhost:8088/api/contratos
+
 
 
