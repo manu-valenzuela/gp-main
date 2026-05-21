@@ -32,14 +32,22 @@ Tiene un dato propio: salario.
 Instrucciones preliminares:
 
 Clonar repositorio:
-  git clone https://github.com/manu-valenzuela/gestionPersonal.git
+
+  "git clone https://github.com/manu-valenzuela/gestionPersonal.git"
+  
 Entrar al microservicio, por ejemplo:
-  cd gp-contratosPersonal
+
+  "cd gp-contratosPersonal"
+  
 Compilar y ejecutar con Maven:
-  mvn clean install
-  mvn spring-boot:run
+
+  "mvn clean install"
+  
+  "mvn spring-boot:run"
+  
 Acceder en el puerto configurado, por ejemplo:
-  http://localhost:8088/api/contratos
+
+  "http://localhost:8088/api/contratos"
 
 
 
